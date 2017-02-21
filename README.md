@@ -50,7 +50,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Run
 
 1. 選擇你要的語料，進入下列資料夾執行`python main.py`進行下載：
-  * WikiPedia
+  * [WikiPedia](WikiPedia/README.md)
   * Dcard
   * PTT
 
