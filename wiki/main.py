@@ -9,9 +9,8 @@ import os, logging
 class KCM(object):
     """docstring for KCM"""
     def __init__(self):
-        logging.basicConfig(format='%(levelname)s : %(asctime)s : %(message)s', filename='Wiki-Download.log', level=logging.INFO)
-        logging.info('Begin gen_kcm.py')
-
+        pass
+        
     def download(self, lang, io_dir):
         import subprocess
         io_dir = os.path.join(io_dir, lang)

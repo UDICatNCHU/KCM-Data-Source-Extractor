@@ -32,7 +32,7 @@ class PreProcess(object):
 		self.wikiFile = arg.wikiFile
 		self.lang = arg.lang
 		self.folderPre = getFolderPre()
-		subprocess.call(['python2', self.BASE_DIR + '/WikiRaw/preprocess_lib/WikiExtractor.py', self.wikiFile, '-o', self.output_dir])
+		subprocess.call(['python', self.BASE_DIR + '/WikiRaw/preprocess_lib/WikiExtractor.py', self.wikiFile, '-o', self.output_dir])
 
 
 	def rename_extrac_files_and_expand_jiebaDict(self):
