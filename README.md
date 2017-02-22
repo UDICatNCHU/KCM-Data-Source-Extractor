@@ -49,10 +49,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Run
 
-1. 選擇你要的語料，進入下列資料夾執行`python main.py`進行下載：
+1. 選擇你要的語料，進入下列資料夾執行`python main.py`進行下載：  
+  執行參數各有不同，請參照下方README超連結  
   * [WikiPedia](WikiPedia/README.md)
+  * [PTT](ptt/README.md)
   * Dcard
-  * PTT
 
 ### Break down into end to end tests
 
