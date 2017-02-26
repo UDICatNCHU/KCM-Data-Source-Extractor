@@ -1,0 +1,22 @@
+language: python
+cache: pip
+python:
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.5-dev"
+  - "nightly"
+
+before_install:
+  - pip install pytest-cov
+  - pip install coveralls
+
+install: 
+  - pip install -r requirements.txt
+
+script:
+  - py.test --cov=dcard tests/
+
+after_success:
+  - coveralls
