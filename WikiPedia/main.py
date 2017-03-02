@@ -27,6 +27,9 @@ def hasFile():
 
 
 if __name__ == '__main__':
+    k = KCM()
+    k.download('cht', 'WikiRaw/')
+
     if hasFile():
         os.remove('wiki.txt.all')
     with open('wiki.txt.all', "a") as outfile:
