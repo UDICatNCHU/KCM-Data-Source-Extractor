@@ -38,3 +38,4 @@ if __name__ == '__main__':
             if file_names != []:
                 for f in file_names:
                     subprocess.call(['cat', os.path.join(dir_path, f)], stdout=outfile)
+    subprocess.call(['opencc', '-i', 'wiki.txt.all', '-o', 'wiki.txt.all.trad'])
