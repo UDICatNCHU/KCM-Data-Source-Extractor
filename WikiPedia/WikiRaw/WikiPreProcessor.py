@@ -25,7 +25,7 @@ class PreProcess(object):
 
 	def __init__(self, arg):
 		def getFolderPre():
-			folderPre = re.search(r'wiki(.)+',self.wikiFile.split('.')[0])
+			folderPre = re.search(r'wiki(.)+',self.wikiFile.split('.')[-3])
 			return str(folderPre.group(0))
 		self.BASE_DIR = arg.BASE_DIR
 		self.output_dir = arg.output_dir
